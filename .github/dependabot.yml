@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "15:15"
+      timezone: "Europe/London"
+    commit-message:
+      prefix: "CF-dependabot-test"
+    reviewers: 
+      - "Legal-and-General-Group-Confidential/cloud-foundation-team"

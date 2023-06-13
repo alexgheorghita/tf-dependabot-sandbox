@@ -1,0 +1,4 @@
+# common
+
+common_config:
+    source: "git::https://github.com/terraform-aws-modules/eks/aws.git?ref=v1.1.0"
