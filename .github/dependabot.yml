@@ -4,7 +4,7 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-      time: "15:15"
+      time: "15:19"
       timezone: "Europe/London"
     commit-message:
       prefix: "CF-dependabot-test"
